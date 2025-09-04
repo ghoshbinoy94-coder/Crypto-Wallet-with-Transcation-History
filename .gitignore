@@ -1,0 +1,34 @@
+# --- IMPORTANT: Sensitive Files ---
+# Never, ever commit files with secrets, API keys, or private keys!
+.env
+*.key
+wallet.dat
+secrets.json
+config.js
+
+# --- Dependencies ---
+# Node.js dependencies
+node_modules/
+
+# Python dependencies & virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# --- Build & Output Folders ---
+dist/
+build/
+out/
+
+# --- Log files ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS & Editor Files ---
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
